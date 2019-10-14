@@ -25,6 +25,16 @@ $ go run main.go
 ```sh
 $ go build main.go
 ```
+- **./maps - contains information on map type *{map}***
+
+1. To run 
+```sh
+$ go run main.go 
+``` 
+2. To build 
+```sh
+$ go build main.go
+```
 
 ## ASSIGNMENTS
 
