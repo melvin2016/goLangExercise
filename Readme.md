@@ -5,7 +5,7 @@
 
 ## PROJECTS
 
-- ./proj_1 - basic functionalities using golang *{type, receiver functions, tests, packages}*
+- ./basics - basic functionalities using golang *{type, receiver functions, tests, packages}*
 
 1. To run 
 ```sh
@@ -14,6 +14,16 @@ $ go run main.go deck.go
 2. To build 
 ```sh
 $ go build main.go deck.go
+```
+- ./structsAndPointers - contains information on struct type and pointer type *{structs, embedded structs, pointers}*
+
+1. To run 
+```sh
+$ go run main.go 
+``` 
+2. To build 
+```sh
+$ go build main.go
 ```
 
 ## ASSIGNMENTS
