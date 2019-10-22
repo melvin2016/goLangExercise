@@ -20,8 +20,8 @@ func main() {
 	// in reciever function ?
 
 	// ANSWER -
-	// Because not every time the values
-	// can be accessed using its address
+	// The answer comes from the fact that it’s
+	// not always possible to get the address of a value.
 	// and there is a need for specification to
 	// avoid these nuances in golang.
 	// They are called, the Method sets.
@@ -29,16 +29,16 @@ func main() {
 	// EXAMPLE
 
 	// THIS IS VALID -
-	// because, its getting an address in the memory
-	// by being initialised with a variable.
 	d := decimal(3)
 	d.PrintDecimal()
+	// because, its getting an address in the memory
+	// by being initialised with a variable.
 
 	// THIS IS INVALID -
+	// decimal(3).PrintDecimal() /* Uncomment this Line to see the error*/
 	// because, not getting an address in memory
 	// and trying to access the PrintDecimal() function
 	// which has a pointer to decimal type.
-	// decimal(3).PrintDecimal() /* Uncomment this Line to see the error*/
 
 	// and shows error -
 	// cannot call pointer method on decimal(3)
