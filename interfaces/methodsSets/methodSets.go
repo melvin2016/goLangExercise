@@ -1,4 +1,4 @@
-// UNDESTANDING METHOD SETS
+// UNDESTANDING METHOD SETS IN INTERFACES
 
 package main
 
@@ -34,6 +34,9 @@ func main() {
 	// because, its getting an address in the memory
 	// by being initialised with a variable.
 
+	// Here the compiler automatically seriralises into (&d).float()
+	fmt.Println(d.float())
+
 	// THIS IS INVALID -
 	// decimal(3).PrintDecimal() /* Uncomment this Line to see the error*/
 	// because, not getting an address in memory
@@ -46,7 +49,9 @@ func main() {
 
 	// Needs to be passing the pointer
 	// of the decimal type because of the
-	// methods sets specifications.
+	// methods sets specifications and
+	// compiler doesn't automatically serialises
+	// to its address value.
 	showFloatValue(&d)
 
 }
