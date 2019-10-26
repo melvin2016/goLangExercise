@@ -18,7 +18,7 @@ func main() {
 }
 
 func incrementWrapper() func() int {
-	x := 0
+	var x int
 	// this return an anonymous function
 	return func() int {
 		x++
