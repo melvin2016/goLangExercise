@@ -3,7 +3,7 @@
 > This repo contains all my workings
 > with Go Programming language.
 
-## PROJECTS
+## PROJECTS - INDEX
 
 - **./basics - basic functionalities using golang *{type, receiver functions, tests, packages}***
 
@@ -21,7 +21,7 @@ $ go build main.go deck.go
   
 - **./interfaces - contains information on interface type *{interface}***
 - **./http_interfaces - contains information on http interface and functions**
-- **./functions - contains information on function type *{variadic functions, callbacks, closures}***
+- **./functions - contains information on function type *{variadic functions, callbacks, closures, defer}***
 
 1. To run 
 ```sh
@@ -32,7 +32,7 @@ $ go run main.go
 $ go build main.go
 ```
 
-## ASSIGNMENTS
+## ASSIGNMENTS - INDEX
 
 - ./assignment_1 - contains an odd or even program.
 
