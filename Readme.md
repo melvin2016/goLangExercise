@@ -16,11 +16,8 @@ $ go run main.go deck.go
 $ go build main.go deck.go
 ```
 - **./structsAndPointers - contains information on struct type and pointer type *{structs, embedded structs, pointers}***
-  
 - **./maps - contains information on map type *{map}***
-  
-- **./interfaces - contains information on interface type *{interface}***
-- **./http_interfaces - contains information on http interface and functions**
+- **./interfaces - contains information on interface type *{interfaces, basic, http_interfaces}***
 - **./functions - contains information on function type *{variadic functions, callbacks, closures, defer}***
 
 1. To run 
