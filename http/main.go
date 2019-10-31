@@ -30,12 +30,6 @@ func main() {
 		fmt.Fprintf(w, "hey %s, you testing this page!", "Melvin")
 	})
 
-	// hello page route handler - /hello
-	http.HandleFunc("/hello", func(w http.ResponseWriter, _ *http.Request) {
-		// writing output to response
-		fmt.Fprintf(w, "hey Hello!")
-	})
-
 	// Start the server
 	startServer()
 }
