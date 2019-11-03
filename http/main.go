@@ -27,7 +27,7 @@ func main() {
 	// test page route handler - /test
 	http.HandleFunc("/test", func(w http.ResponseWriter, _ *http.Request) {
 		// writing output to response
-		fmt.Fprintf(w, "hey %s, you testing this page!", "Melvin")
+		fmt.Fprintf(w, "hey %s, you asshole this page!", "Melvin")
 	})
 
 	// Start the server
